@@ -68,7 +68,7 @@ export default function Home() {
           return (
             <div
               key={index}
-              className={`px-4 pt-2 shadow-md rounded-md ml-10 relative sm:text-stone-600 ${
+              className={`px-4 pt-2 shadow-md rounded-md ml-10 relative sm:text-stone-600 dark:sm:text-stone-600 ${
                 m.role === "user" ? "bg-stone-300" : ""
               }`}
             >
